@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root{
+  --background-main: #2F1893;
+  --background-main-black: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "DM Sans", sans-serif;
+}
+
+
+.flexStart{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexStartCenter{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCenterDown{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flexColumnCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColumnStart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexEnd{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flexRight{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flexColumnRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.blockTitle{
+  font-weight: bold;
+  font-size: 4.5rem;
+  letter-spacing: 3px;
+  user-select: none;
+}
+
+.blockText{
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  user-select: none;
+}
+
+.btn{
+  height: 60px;
+  width: 200px;
+
+  background-color: #482BE7;
+  color: white;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  border-radius: 100px;
+}

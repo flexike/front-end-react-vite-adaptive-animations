@@ -1,0 +1,13 @@
+.App{
+    background-color: var(--background-main);
+    display: flex;
+    flex-direction: column;
+    gap: 7.5rem;
+}
+
+.frstBlock{
+    background: url('./component/assets/img/header-bg.png') no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100%;
+}

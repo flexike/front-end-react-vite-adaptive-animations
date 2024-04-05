@@ -1,0 +1,113 @@
+.f-wrapper{
+    background: url('../assets/img/feature-bg.png') no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    padding-bottom: 7rem;
+}
+
+.f-bg-image{
+    position: absolute;
+    margin-top: 5rem;
+    width: 45rem;
+    height: 45rem;
+    z-index: 0;
+}
+
+.f-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    color: white;
+    position: relative;
+
+    margin-bottom: 14rem;
+}
+
+.f-block{
+    margin-top: 15rem;
+    margin-right: 12rem;
+}
+
+/* upper block */
+
+.f-block-upper-title{
+    font-size: 3rem;
+}
+
+.f-block-upper p:nth-child(2){
+    margin-top: 1.25rem;
+    width: 40rem;
+}
+
+/* lower block */
+.f-block-lower{
+    margin-top: 4rem;
+    font-size: 1rem;
+    gap: 6rem;
+}
+
+.f-block-lower img{
+    margin-bottom: 1.5rem;
+}
+
+.f-block-lower p:nth-child(2){
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1400px) {
+    .f-wrapper{
+        overflow: hidden;
+    }
+
+    .f-block{
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .f-bg-image{
+        filter: blur(0.5rem);
+    }
+}
+
+@media (max-width: 740px) {
+    .f-container{
+        max-width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .f-block{
+        padding: 1rem;
+    }
+
+    .f-bg-image{
+        margin-top: 2rem;
+        filter: blur(0.75rem)
+    }
+
+    .f-block-upper p:nth-child(2){
+        margin-top: 1.25rem;
+        width: 100%;
+    }
+
+    .f-block-upper-title{
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 680px) {
+    .f-block-lower{
+        width: 100%;
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+
+    .f-block-upper-title{
+        font-size: 3rem;
+    }
+}
